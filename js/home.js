@@ -9,6 +9,8 @@
 				}
                         if(data.code=="1"){
                             location.href = data.url;
+		       }else{
+			layer.msg(data.msg);
                         }
 			});
 		}else{
