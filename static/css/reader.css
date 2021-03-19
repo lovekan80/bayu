@@ -1,0 +1,148 @@
+﻿body{-webkit-user-select:none;  -webkit-user-drag:none;background:#666}
+
+.top_bar .s_nav{ float: left;margin-top: 12px;}
+.top_bar .s_nav li{float:left; display:inline;margin-right: 10px;font-size: 14px;}
+.top_bar .s_nav li a{color: #ccc;}
+.top_bar .s_nav li a.home{font-weight: bold;color: #d2a15d;}
+.top_bar .s_nav li.line{color:#666;}
+.top_bar .box-sch {width: 220px;margin: 10px 0 0 15px;float: left;height: 28px;}
+.top_bar .text{width:162px;padding: 6px 12px;}
+.top_bar .submit{ margin-top: -2px;}
+
+.top_bar .login_info .record-box{ border: none;right: 0;}
+
+.reviewform .reviewform-r .reviewcon{ margin-top: 0;}
+.readbg{background:#c7d0bd; padding:20px 30px}
+.darkbarbg{padding:10px 30px; background:#acb4a3}
+.readbg a:hover, .darkbarbg a:hover{color:#a0671d}
+.readlocation{height:20px; line-height:20px}
+.readlocation .location{float:left; display:inline; position:relative; padding-left:21px}
+.readlocation .location i{width:16px; height:16px; background-position:-25px -145px; position:absolute; left:0; top:2px}
+.readlocation .location em{padding:0 5px}
+.readlocation .bookrel{float:left; display:inline; margin-left:20px; color:#666}
+.readlocation .bookrel a{color:#666}
+.readlocation .bookrel a:hover, .readlocation .bookrel .orange{color:#a0671d}
+.readlocation .bookrel em{padding:0 6px}
+.readlocation .interaction{float:right}
+.readlocation .interaction li{float:left; display:inline; margin-left:15px}
+.readlocation .interaction li.m-read, .readset .interaction li.m-read, .articlebtbar .interaction li.m-read{color:#4f320c; position:relative; z-index:10; cursor:default}
+.readlocation .interaction li.m-read .m-qrcode, .readset .interaction li.m-read .m-qrcode, .articlebtbar .interaction li.m-read .m-qrcode{left:-65px}
+.readlocation .interaction li a{color:#4f320c}
+.chapter-con{padding:20px 30px 0; margin-top:15px; border-top:1px solid #acb4a3}
+.chapter-hd{height:55px; padding:0 0 25px 60px; background:url(../images/2pxgradientline.png) no-repeat center bottom; position:relative}
+.chapter-hd h1{height:28px; font:25px/28px Microsoft YaHei; overflow:hidden}
+.chapter-hd p{height:20px; line-height:20px; margin-top:5px}
+.chapter-hd p .type{margin-right:15px}
+.chapter-hd p .articleval{color:#666}
+.chapter-hd p a.articleval:hover, .chapter-hd p .goread{color:#a0671d}
+.chapter-bd h2{height:25px; margin-top:25px; font:18px/25px Microsoft YaHei; color:#4f320c; overflow:hidden}
+.chapter-bd .volume-intro{padding:15px 20px; margin-top:10px; line-height:22px; background:#acb4a3; color:#61675b}
+.chapter-bd .chapter-list{margin-top:10px}
+.chapter-bd .chapter-list li{float:left; display:inline; width:33.3%; height:25px; padding:10px 0; font-size:14px; border-bottom:1px solid #acb4a3}
+.chapter-bd .chapter-list li span{display:inline-block; width:90%; height:25px; line-height:25px; overflow:hidden}
+.chapter-bd .chapter-list li span .vip-icon {width: 11px;height: 12px;background-position: -26px -104px;margin-left: 3px;vertical-align: -1px;}
+.chapter-bd .chapter-list li .newChapter{display:inline-block;margin:-1px 5px 0 5px;width:30px;height:15px;border-radius:4px;background:#ea4136;color:#fff;vertical-align:middle;text-align:center;font-size:12px;line-height:15px}
+.readtips1{margin-top:10px; line-height:24px}
+.readtips2{margin-top:15px; line-height:24px}
+.readtips2 h3{height:30px; line-height:30px; font-size:14px}
+.outstandingworks{width:100%; overflow:hidden}
+.outstandingworks ul{width:954px; margin-left:-35px}
+.outstandingworks ul li{float:left; display:inline; width:112px; height:196px; margin:15px 0 0 35px; text-align:center}
+.outstandingworks ul li .pic{display:inline-block; width:120px; height:170px; border:2px solid #adb5a4}
+.outstandingworks ul li .pic img{width:120px; height:170px}
+.outstandingworks ul li p{height:20px; line-height:20px; margin-top:2px; overflow:hidden}
+
+.order{margin-top:30px}
+.order .title{height:30px; line-height:30px; margin-bottom:10px; font-size:14px}
+.order .title .name{color:#4f320c}
+.order-table{width:100%}
+.order-table th, .order-table td{text-align:center}
+.order-table th{height:35px; background:#acb4a3; color:#61675b; font-weight:normal}
+.order-table th.tl, .order-table td.tl{text-align:left}
+.order-table th{padding:0 5px}
+.order-table td{line-height:20px; padding:10px 5px; border-bottom:1px solid #acb5a2}
+.order-table td .orange{color:#a0671d}
+.order-table td.selection{padding-top:20px; border-bottom:none}
+.order-table td.selection .inverseselect{display:inline-block; width:60px; height:30px; line-height:30px; text-align:center; font-size:14px; font-weight:bold; background:#b90000; color:#FFF}
+.order-table td.selection .tips{margin-left:10px; color:#666}
+.orderpay{margin-top:20px; line-height:22px; text-align:right}
+.orderpay li{line-height: 24px;font-size: 10.5pt;}
+.orderpay li span{ font-size: 12px;}
+.orderpay .num{font-size:24px; font-weight:normal; color:#a0671d; margin-right:3px}
+.orderpay .mt{margin-top:10px}
+.orderpay .orange{color:#a0671d}
+.orderpay .red, .orderpay .red a{color:#b90000}
+.orderpay .gray{color:#666}
+.orderpay .otherlogin, .orderpay .subbutton{height:30px; margin-top:15px}
+.orderpay .otherlogin .otherlogin-bd, .orderpay .subbutton .subbutton-bd{display:inline-block; *display:inline; zoom:1}
+.orderpay .otherlogin a{float:left; display:inline-block; width:103px; height:30px; margin-left:15px; background:url(../images/otherlogin.png) no-repeat; text-align:left; text-indent:-999px; overflow:hidden}
+.orderpay .otherlogin a.qqlogin{background-position:0 0}
+.orderpay .otherlogin a.weibologin{background-position:0 -31px}
+.orderpay .otherlogin a.baidulogin{background-position:0 -62px}
+.orderpay .autosub, .orderpay .question-icon, .orderpay .confirmsub{float:left}
+.orderpay .autosub{margin-top:3px}
+.orderpay .autosub input{vertical-align:-3px; margin-right:3px; *margin-right:0}
+.orderpay .question-icon{width:14px; height:14px; background-position:-26px -196px; margin:8px 0 0 5px}
+.orderpay .confirmsub{width:100px; height:30px; line-height:30px; margin-left:15px; text-align:center; font-size:14px; font-weight:bold; background:#b90000; color:#FFF}
+.orderpay .confirmsub:hover{color:#FFF}
+.orderpay .explain{font-size: 12px;width:148px; padding:10px; text-align:left; background:#FFF; border:1px solid #E6BE87; position:absolute; z-index:20; display:none}
+.orderpay .explain .angle-icon{width:12px; height:10px; background-position:-26px -121px; position:absolute; left:79px; top:-10px}
+
+.recharge{margin-top:20px;}
+.recharge .title{height:30px; line-height:30px; margin-bottom:10px; font-size:14px; clear:both}
+.recharge .wangyin, .recharge .alipay, .recharge .other{float:left}
+.recharge .alipay, .recharge .other{margin-left:10px}
+.recharge .other{display:inline}
+.recharge .other p{height:24px; line-height:24px}
+.recharge .other em{padding:0 8px}
+.recharge .other .orange{color:#a0671d}
+
+.readset{height:40px; margin:20px 0 30px}
+.readset .readset-l, .readset .readset-r{height:20px; line-height:20px; background:#acb4a3}
+.readset .readset-l{float:left; width:750px; padding:10px 20px}
+.readset .readset-r{float:right; width:80px; padding:10px 20px; text-align:center}
+.readset .fontset{float:left}
+.readset .fontset li{float:left; display:inline;}
+.readset .fontset li.ml{margin-left:20px}
+.readset .fontset li a{color:#61675b}
+.readset .fontset li a:hover, .readset .fontset li a.current{color:#4f320c}
+.readset .fontset li a.ml{margin-left:12px}
+.readset .fontset li a.default{color:#333}
+.readset .interaction{float:right}
+.readset .interaction li{float:left; display:inline; margin-left:15px}
+.readset .interaction li a{color:#4f320c}
+.readset .lookcatalog{font-weight:bold; color:#4f320c}
+
+/*prop_overlay*/
+.popup .popup-con2 {background: #FFF;padding: 15px 30px 20px;}
+.popup .popup-hd2 {height: 30px;line-height: 30px;padding-bottom: 5px;margin-bottom: 15px;border-bottom: 1px dashed #d7d7d7;font-size: 14px;font-weight: bold;position: relative;}
+.popup .popup-hd2 .close {height: 30px;padding-left: 17px;background: url(../images/close-icon-2.png) no-repeat 0 9px;color: #666;position: absolute;right: 0;top: 0;}
+.prop_overlay .support-goods{width:100%; height:105px; overflow:hidden}
+.prop_overlay .support-goods ul{width:495px; margin-left:-15px}
+.prop_overlay .support-goods li{float:left; display:inline; width:74px; height:105px; padding:5px; margin-left:15px; text-align:center; border-bottom:none; cursor:pointer}
+.prop_overlay .support-goods li .pic img{width:74px; height:74px}
+.prop_overlay .support-goods li .goods, .prop_overlay .support-goods li .total{height:20px; line-height:20px; overflow:hidden}
+.prop_overlay .support-goods li .goods{margin-top:3px}
+.prop_overlay .support-goods li .total em{color:#d29f5d; margin-right:2px}
+.prop_overlay .support-goods li.on{ background: #eeeeee;}
+.prop_overlay .support-con{height:101px; padding:10px 15px;background: #eee;}
+.prop_overlay .fillform{float:left; width:350px}
+.prop_overlay .fillform li{width:100%; line-height:28px; padding:5px 0; vertical-align:middle; overflow:hidden}
+.prop_overlay .fillform li label, .prop_overlay .fillform li span{float:left}
+.prop_overlay .fillform li label{width:38px}
+.prop_overlay .fillform li input{*margin:-1px 0}
+.prop_overlay .fillform li .num-text{width:38px; height:26px; line-height:26px; padding:0 5px; text-align:center; color:#666; border:1px solid #dad3c9}
+.prop_overlay .fillform li .unit{margin-left:5px}
+.prop_overlay .fillform li .goods{margin-left:5px; color:#d2a15e}
+.prop_overlay .fillform li .price{margin-left:10px}
+.prop_overlay .fillform li .price .num{padding:0 3px; color:#d2a15e; font-weight:bold}
+.prop_overlay .fillform li .msg-text{width:293px; height:26px; line-height:26px; padding:0 5px; color:#666; border:1px solid #dad3c9}
+.prop_overlay .fillform li .remind{height:22px; line-height:22px; margin-top:3px; color:#666}
+.prop_overlay .submitform{float:right; width:85px; text-align:right}
+.prop_overlay .submitform p{line-height:28px; padding:5px 0}
+.prop_overlay .submitform .gorecharge a{font-weight:bold; color:#d2a15e}
+.prop_overlay .submitform .supportbtn{width:85px; height:50px; font:22px Microsoft YaHei; color:#FFF; background:#60adc1; border:none; cursor:pointer}
+
+.toolbar{bottom:105px;}
+.toolbar a.sve,.toolbar .shr{ background: none;}
+.toolbar .hidde{ display:block;}
